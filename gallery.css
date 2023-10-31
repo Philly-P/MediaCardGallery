@@ -6,38 +6,62 @@
         background-image: url('Mount.jpg');
         background-repeat: no-repeat;
         background-size: cover;
-    }
-
-    .container{
-        display: grid;
-        grid-template-columns: repeat(4, 1fr);
         
     }
 
-    .card{
+    .container{
+      margin-top: 500px;
+      margin-left: 125px;
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        grid-template-rows: 300px repeat(auto-fill,300px);
+        
+    }
+
+.bg1{
+  width: 250px;
+  height: 250px;
+   background-image: url(dog.jpg); 
+  background-repeat: none;
+  background-size: cover;
+  opacity: .5;
+  position: absolute;
+
+}
+
+    .card1{
         width: 250px;
             height: 250px;
             border: 5px solid #fbfcfc;
-            background-color: #1c6400;
-            border-radius: 5%;
+            /* background-color: #1c6400;*/
+            /*background-image: url(dog.jpg);
+            background-repeat: none;
+            background-size: cover;
+            background-image: url(dog.jpg);*/
+            border-radius: 2%;
+            opacity: 1;
+            
     }
 
     hr{
         width: 98%;
         height: 10px;
         background-color: #c9bb00;
+        
     }
 
     h1{
         text-align: center;
         font-size: 30px;
         font-family: fantasy;
+        color: #009e00;
     }
 
     p{
         text-align: center;
         font-size: 20px;
         font-family: 'Times New Roman', Times, serif;
+        color: #009e00;
     }
 
     .center{
