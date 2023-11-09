@@ -18,28 +18,14 @@
         
     }
 
-.bg1{
-  width: 250px;
-  height: 250px;
-   background-image: url(dog.jpg); 
-  background-repeat: none;
-  background-size: cover;
-  opacity: .5;
-  position: absolute;
 
-}
 
 
     .card1{
       width: 250px;
       height: 250px;
       border: 5px solid #fbfcfc;
-             /*background-color: #1c6400;
-             
-            background-image: url(dog.jpg);
-            background-repeat: none;
-            background-size: cover;*/
-            
+      
             border-radius: 2%;
             opacity: 1;
             
@@ -47,7 +33,7 @@
     .card1::before{
       
       background-image: url(dog.jpg);
-            background-repeat: none;
+            background-repeat: no-repeat;
             background-size: cover;
             background-position: absolute;
             opacity: .5;
