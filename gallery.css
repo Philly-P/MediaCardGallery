@@ -10,7 +10,7 @@
     }
 
     .container{
-      margin-top: 500px;
+      margin-top: 200px;
       margin-left: 125px;
         display: grid;
         grid-template-columns: repeat(4, 1fr);
@@ -26,24 +26,23 @@
       width: 250px;
       height: 250px;
       border: 5px solid #fbfcfc;
-      
+      background-color: #003300;
             border-radius: 2%;
-            opacity: 1;
             
     }
-    .card1::after{
+    /*.card1::after{
       content: '';
       background-image: url('dog.jpg');
             background-repeat: no-repeat;
             background-size: cover;
-            /* background-position: absolute; */
+             background-position: absolute; 
             opacity: .5;
             width: 100%;
             height: auto;
             position: absolute;
             top:0;
 
-    }
+    }*/
 
     hr{
         width: 98%;
