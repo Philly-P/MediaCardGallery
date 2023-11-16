@@ -22,6 +22,7 @@
 
 
     .card1{
+      position: relative;
       width: 250px;
       height: 250px;
       border: 5px solid #fbfcfc;
@@ -30,13 +31,18 @@
             opacity: 1;
             
     }
-    .card1::before{
-      
-      background-image: url(dog.jpg);
+    .card1::after{
+      content: '';
+      background-image: url('dog.jpg');
             background-repeat: no-repeat;
             background-size: cover;
-            background-position: absolute;
+            /* background-position: absolute; */
             opacity: .5;
+            width: 100%;
+            height: auto;
+            position: absolute;
+            top:0;
+
     }
 
     hr{
